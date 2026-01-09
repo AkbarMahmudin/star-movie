@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "name": "SuperAdmin",
+    "username": "superadmin",
+    "email": "superadmin@gmail.com",
+    "roleId": 1
+  },
+
+  {
+    "id": 2,
+    "name": "Bintang Thera Novyo Gala Nanda",
+    "username": "adminsk",
+    "email": "saungkapeurihlemburpakuan@gmail.com",
+    "roleId": 2,
+    "unitId": 1
+  },
+  {
+    "id": 3,
+    "name": "Pengelola SK",
+    "username": "pengelolask",
+    "email": "pengelola.sk@gmail.com",
+    "roleId": 3,
+    "unitId": 1
+  },
+
+  {
+    "id": 4,
+    "name": "Pengawas",
+    "username": "pengawas",
+    "email": "pengawas@gmail.com",
+    "roleId": 4
+  },
+
+  {
+    "id": 5,
+    "name": "Dani Kurniawan",
+    "username": "adminbp",
+    "email": "konseptorjabar1@gmail.com",
+    "roleId": 2,
+    "unitId": 2
+  },
+  {
+    "id": 6,
+    "name": "Pengelola BP",
+    "username": "pengelolabp",
+    "email": "pengelola.bp@gmail.com",
+    "roleId": 3,
+    "unitId": 2
+  },
+  {
+    "id": 7,
+    "name": "Tester",
+    "username": "tester",
+    "email": "sapawarga.qa@gmail.com",
+    "roleId": 3,
+    "unitId": 2
+  }
+]

@@ -1,0 +1,19 @@
+import { Injectable } from '@nestjs/common';
+import { ISeeder } from './seeder.interface';
+import { PrismaService } from '../../database/prisma.service';
+import { RegisterSeeder } from '../../libs/decorators/register-seeder.decorator';
+
+@RegisterSeeder()
+@Injectable()
+export class {{className}} implements ISeeder {
+  name = '{{name}}';
+  constructor(private readonly prisma: PrismaService) {}
+
+  async run() {
+    console.log('⏳  Seeding {{className}}...');
+
+    // TODO: Implement your seed logic
+
+    console.log('✅  {{className}} seeded.');
+  }
+}
